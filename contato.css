@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width:60%;
+}
+
+#logo {
+    width: 200px;
+    height:auto;
+}
+.entry-label{
+    color: #fff;
+    font-size: 19px;
+    font-family: url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;400&family=Single+Day&display=swap');
+    width: 70%;
+}
+.footer{
+    color:  #fff;
+    font-size: 17px;
+    font-family: url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;400&family=Single+Day&display=swap');
+    width: 100%;
+    text-align: center;
+}
+.entry{
+    color:  #990000;
+}
+
+
+
+.main-contact {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.form-contact {
+    margin: 40px 0;
+ }
+
+.entry-label {
+    display: block;
+    margin: 8px auto;
+    width: 50%;
+}
+
+.entry, .form-contact textarea {
+    display: block;
+    margin: 0 auto 25px;
+    padding: 4px 9px;
+    font-size: 18px;
+    width: 50%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+}
+
+#checkbox, .div-entry {
+    margin: 30px auto;
+}
